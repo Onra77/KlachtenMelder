@@ -1,4 +1,4 @@
-@yield('content')
+
 
     <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -87,7 +87,7 @@
                 <div class="title m-b-md">
                     KlachtenMelder
                 </div>
-
+                @yield('content')
                 <div class="links">
                     <!-- <a href="welcome">Home</a> -->
                     <a href="klacht">Klacht</a>
