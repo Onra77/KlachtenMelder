@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/klacht', function () {
+    return view('klacht');
+});
+
+Route::get('/overzicht', function () {
+    return view('overzicht');
+});
+
+Route::get('/info', function () {
+    return view('info');
+});
+
+Route::get('/faq', function () {
+    return view('faq');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
