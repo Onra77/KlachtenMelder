@@ -6,7 +6,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>KlachtenMelder</title>
+        <!-- <title>KlachtenMelder</title> -->
+        <title>@yield('title', 'KlachtenMelder')</title>
+
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -87,6 +89,7 @@
                 </div>
 
                 <div class="links">
+                    <!-- <a href="welcome">Home</a> -->
                     <a href="klacht">Klacht</a>
                     <a href="overzicht">Overzicht</a>
                     <a href="info">Info</a>
