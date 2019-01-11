@@ -34,3 +34,5 @@ Route::get('/faq', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+// Route::post('contact', 'ContactController@showForm')name('contact.show');

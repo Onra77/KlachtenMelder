@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-    Info
+    Info - KM
 @endsection
 
 @section('content')

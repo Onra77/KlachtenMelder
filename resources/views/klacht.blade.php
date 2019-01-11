@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-    Klacht
+    Klacht - KM
 @endsection
 
 @section('content')
