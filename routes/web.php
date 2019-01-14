@@ -31,12 +31,15 @@ Route::get('/faq', function () {
     return view('faq');
 });
 
-Route::get('/contact', function () {
+/*Route::get('/contact', function () {
     return view('contact');
-});
+});*/
 
 Route::get('/disclaimer', function () {
     return view('disclaimer');
 });
+
+Route::get('contact', 'ContactController@create')->name('contact.create');
+Route::post('contact', 'ContactController@store')->name('contact.store');
 
 // Route::post('contact', 'ContactController@showForm')name('contact.show');
