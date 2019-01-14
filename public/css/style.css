@@ -1,0 +1,54 @@
+ /* Style the buttons that are used to open and close the accordion panel */
+ /* .content {
+   width: 100%;
+   padding: 0 60px;
+ }
+ 
+ .harmonica {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+  }
+
+  .harmonica .texter {
+    visibility: hidden;
+    transform: translateY(0);
+    transition: hight 1s;
+  }
+
+  .harmonica .texter.show {
+    visibility: visible;
+  }
+
+  .harmonica:hover {
+
+  } */
+
+   /* Style the buttons that are used to open and close the accordion panel */
+
+   
+.harmonica {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .harmonica:hover {
+  background-color: #ccc;
+}
+
+/* Style the harmonica panel. Note: hidden by default */
+.texter {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 

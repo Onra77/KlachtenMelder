@@ -3,6 +3,7 @@
 @section('title')
     FAQ - KM
 @endsection
+<link href="{{ asset('/css/style.css') }}" rel="stylesheet">
 
 @section('content')
 
@@ -24,7 +25,7 @@
         @slot('title')
             Hoe?
         @endslot 
-        In Laravel hebben we een website gemaakt met een SQL d1e database. En met PHP en eventueel javascript de data verwerking. Met Javascript is het doel data asynchroon te laten verwerken zodat data automatische verwerkt wordt. De bedoeling is om via een simpele interface je een klacht kan melden onder een bepaald categorie die het dichtst bij de klacht in de buurt komt. Dan kun je nog een korte omschrijving geven van de klacht in een tekstvak. Deze klachten kun je terug zien in een overzicht dat per gefilterd wordt op postcode, stad, provincie of landelijk. Klachten die een enkele keer voor komen worden na een tijdje automatisch verwijderd om vervuiling van de database te voorkomen.
+        In Laravel hebben we een website gemaakt met een SQL die database. En met PHP en eventueel javascript de data verwerking. Met Javascript is het doel data asynchroon te laten verwerken zodat data automatische verwerkt wordt. De bedoeling is om via een simpele interface je een klacht kan melden onder een bepaald categorie die het dichtst bij de klacht in de buurt komt. Dan kun je nog een korte omschrijving geven van de klacht in een tekstvak. Deze klachten kun je terug zien in een overzicht dat per gefilterd wordt op postcode, stad, provincie of landelijk. Klachten die een enkele keer voor komen worden na een tijdje automatisch verwijderd om vervuiling van de database te voorkomen.
     @endcomponent
 
     @component('components.harmonica')

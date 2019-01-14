@@ -35,4 +35,8 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/disclaimer', function () {
+    return view('disclaimer');
+});
+
 // Route::post('contact', 'ContactController@showForm')name('contact.show');

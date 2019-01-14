@@ -7,10 +7,9 @@
         <!-- <title>KlachtenMelder</title> -->
         <title>@yield('title', 'KlachtenMelder')</title>
 
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-
+      
         <!-- Styles -->
         <style>
             html, body {
@@ -66,7 +65,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -93,6 +92,7 @@
                     <a href="info">Info</a>
                     <a href="faq">faq</a>
                     <a href="contact">contact</a>
+                    <a href="disclaimer">disclaimer</a>
                 </div>
             </div>
         </div>
