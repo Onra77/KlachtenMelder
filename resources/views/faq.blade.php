@@ -41,7 +41,8 @@
         @endslot 
         Je klacht kwijt kunnen en je kan zien wat er nog meer gemeld is in je buurt.</br>
         Misschien veroorzaak je zelf een klacht bij iemand anders maar heb je dat nog nooit gerealiseerd.</br>
-        Als de klacht heel vaak of regelmatig voorkomt zou je kunnen doorspelen naar een instantie die er mee te maken heeft. Of een reden om te overleggen met je buren.</br>
+        Als de klacht heel vaak of regelmatig voorkomt zou je kunnen doorspelen naar een instantie die er mee te maken heeft.</br>
+        Of een reden om te overleggen met je buren.</br>
         Als je gaat verhuizen en je wilt weten wat voor wijk het is dan zou je via deze webapp een indruk kunnen krijgen van die wijk.</br>
     @endcomponent
    
