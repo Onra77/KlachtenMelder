@@ -26,4 +26,12 @@
   transition: 1s;
   display: none;
   overflow: hidden;
-} 
+}
+
+#grey {
+  background-color: #eee;
+  color: #444;
+  padding: 1px;
+  width: 704px;
+  text-align: center;
+}

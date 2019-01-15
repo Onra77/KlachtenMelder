@@ -7,6 +7,7 @@
 
 
 @section('content')
+<div id=grey>
 <p>
 "Wij zijn niet verantwoordelijk voor pagina’s van externe organisaties waarnaar verwezen wordt."
 </p>
@@ -16,4 +17,5 @@
 <p>
 "Wij kunnen geen garantie bieden betreffende de veiligheid van de website, noch aansprakelijk gesteld worden voor de schade die, rechtstreeks of onrechtstreeks, het gevolg is van een onderbreking in de beschikbaarheid van de site."
 </p>
+</div>
 @endsection

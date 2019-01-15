@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 
 class ContactFormRequest extends FormRequest
-{
+{   
     /**
      * Determine if the user is authorized to make this request.
      *
@@ -29,4 +29,15 @@ class ContactFormRequest extends FormRequest
         'msg'     => 'required'
     ];
     }
+
+
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
 }

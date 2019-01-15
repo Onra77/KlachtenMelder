@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
       
         <!-- Styles -->
+        <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
         <style>
             html, body {
                 background-color: #fff;
@@ -99,15 +100,7 @@
         <!-- Scripts -->
         <script src="{{ asset('js/main.js') }}"></script>
     </body>
+
     
-    @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-    @endif
 
 </html>

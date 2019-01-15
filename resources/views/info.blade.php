@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-
+<div id=grey>
     <h1>Info</h1>
     <p>
         Waarom kies je dit project?
@@ -19,4 +19,5 @@
         postcode, stad, provincie of landelijk. Klachten die een enkele keer voor komen worden na een
         tijdje automatisch verwijderd om vervuiling van de database te voorkomen.
     </p>
+</div>    
 @endsection

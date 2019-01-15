@@ -7,6 +7,7 @@
 @endsection
 
 @section('content')
+<div id=grey>
 
     <h1>Contact</h1>
 
@@ -30,5 +31,5 @@
 
 {!! Form::close() !!}
 
-
+</div>
 @endsection
