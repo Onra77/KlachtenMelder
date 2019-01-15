@@ -9,43 +9,56 @@
 
     @component('components.harmonica')
         @slot('title')
-            Waarom?
+            Wie?
         @endslot 
-        Het is een eindopdracht van CodeGorilla, we zijn nieuwsgierig wat voor klachten er gemeld zal worden. Het is handig voor buren of toekomstige buren om te zien wat voor klachten er zijn en hoe het verholpen kan worden of wat als je zelf onderdeel bent van de klacht. Het zou ook handig kunnnn zijn voor woningbouw verenigingen om inzicht te krijgen wat er leeft onder de bewoners.
+        Deze website is gemaakt door Arno Bertens en Ornelio Reiph.
     @endcomponent
 
     @component('components.harmonica')
         @slot('title')
-            Beschrijving
+            Wat?
         @endslot 
-        De bedoeling is om via een simpele interface je een klacht kan melden onder een bepaald categorie die het dichtst bij de klacht in de buurt komt. Dan kun je nog een korte omschrijving geven van de klacht in een tekstvak. Deze klachten kun je terug zien in een overzicht dat per gefilterd wordt op postcode, stad, provincie of landelijk. Klachten die een enkele keer voor komen worden na een tijdje automatisch verwijderd om vervuiling van de database te voorkomen.
+        De bedoeling is dat men een klacht kan plaatsen gekoppeld aan een postcode waar de klacht zich voordoet.
     @endcomponent
 
     @component('components.harmonica')
         @slot('title')
-            Hoe?
+            Waar?
         @endslot 
-        In Laravel hebben we een website gemaakt met een SQL die database. En met PHP en eventueel javascript de data verwerking. Met Javascript is het doel data asynchroon te laten verwerken zodat data automatische verwerkt wordt. De bedoeling is om via een simpele interface je een klacht kan melden onder een bepaald categorie die het dichtst bij de klacht in de buurt komt. Dan kun je nog een korte omschrijving geven van de klacht in een tekstvak. Deze klachten kun je terug zien in een overzicht dat per gefilterd wordt op postcode, stad, provincie of landelijk. Klachten die een enkele keer voor komen worden na een tijdje automatisch verwijderd om vervuiling van de database te voorkomen.
+        WWW.KlachtenMelder.nl
     @endcomponent
 
     @component('components.harmonica')
         @slot('title')
-            Voorbeeld:
+            Wanneer?
         @endslot 
-        Een bewoner in een flat die gebruikt maakt van een ondergrondse container klaagt dat niet iedereen zijn vuilnis in de container stopt maar er naast legt. Gezien hij van een schone buurt houdt gooit hij vaak de vuilniszakken er zelf in. Helaas ziet hij niet wie het doet anders hij die persoon hierop aangesproken. Maar is hij de enige die dit irritant vindt? Hij kijkt op de webapp en zoekt op zijn postcode of deze klacht eerder is gemeld en wat er nog meer is gemeld...
+        Nu, maar de klachten worden ook gefilterd op datum zodat heel oude klachten niet automatisch wordt meegenomen in de overzicht.
     @endcomponent
   
     @component('components.harmonica')
         @slot('title')
-            Resultaat
+            Waarom?
         @endslot 
-        Je klacht kwijt kunnen en je kan zien wat er nog meer gemeld is in je buurt.</br>
-        Misschien veroorzaak je zelf een klacht bij iemand anders maar heb je dat nog nooit gerealiseerd.</br>
-        Als de klacht heel vaak of regelmatig voorkomt zou je kunnen doorspelen naar een instantie die er mee te maken heeft.</br>
-        Of een reden om te overleggen met je buren.</br>
-        Als je gaat verhuizen en je wilt weten wat voor wijk het is dan zou je via deze webapp een indruk kunnen krijgen van die wijk.</br>
+        Het is het eindproject van een bootkamp gegeven door CodeGorila waarin we zelf een onderwerp mochten kiezen. We kozen ervoor om in kaart te brengen wat voor klachten er worden gemeld en of het kenmerkend is voor bepaalde gebieden.</br>
+        We willen inzicht geven voor jou of je toekomstige buren.</br>
+        Deze informatie kan gebruikt worden om actie te ondernemen om er iets aan te doen om de klacht te verhelpen. Het zou ook inzicht kunnen geven aan degene die een zelf een klacht veroorzaken maar daar niet van bewust zijn of realiseren dat dit voor andere heel irritant is.</br> De belangrijkste doel is inzicht geven en dus proberen mensen bewust te maken van hun omgeving en hun eigen rol erin.
     @endcomponent
    
+    @component('components.harmonica')
+        @slot('title')
+            Hoe?
+        @endslot 
+        De klachten informatie kan een beeld vormen hoe het staat met klachten in de buurt.</br>
+        Dit is per postcode zichtbaar. Je kan een top 10 zien van meest gemelde klachten.
+    @endcomponent
+
+    @component('components.harmonica')
+        @slot('title')
+            Toekomst?
+        @endslot 
+        We willen ook de mogelijkheid bieden om dit niet alleen per postcode maar ook per stad, provincie of landelijk te laten zien. Of dat je een specifieke klacht kan kiezen en dan een steden top 10 krijgt per postcode, stad, provincie of landelijk.
+    @endcomponent
+
     @component('components.harmonica')
         @slot('title')
             Andere vragen?

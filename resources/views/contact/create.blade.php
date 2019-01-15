@@ -9,7 +9,7 @@
 @section('content')
 <div id=grey>
 
-    <h1>Contact ons?</h1>
+    <h1>Contact?</h1>
 
     {!! Form::open(['route' => 'contact.store']) !!}
 

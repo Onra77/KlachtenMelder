@@ -9,13 +9,13 @@
 @section('content')
 <div id=grey>
 <p>
-"Wij zijn niet verantwoordelijk voor pagina’s van externe organisaties waarnaar verwezen wordt."
+Wij zijn niet verantwoordelijk voor pagina’s van externe organisaties waarnaar verwezen wordt.
 </p>
 <p>
-"Wij geven geen enkele garantie inzake de juistheid of de volledigheid, of het bijgewerkt zijn van de informatie die op dit systeem werd geraadpleegd of die via dit systeem werd uitgewisseld."
+Wij geven geen enkele garantie inzake de juistheid of de volledigheid, of het bijgewerkt zijn van de informatie die op dit systeem werd geraadpleegd of die via dit systeem werd uitgewisseld.
 </p>
 <p>
-"Wij kunnen geen garantie bieden betreffende de veiligheid van de website, noch aansprakelijk gesteld worden voor de schade die, rechtstreeks of onrechtstreeks, het gevolg is van een onderbreking in de beschikbaarheid van de site."
+Wij kunnen geen garantie bieden betreffende de veiligheid van de website, noch aansprakelijk gesteld worden voor de schade die, rechtstreeks of onrechtstreeks, het gevolg is van een onderbreking in de beschikbaarheid van de site.
 </p>
 </div>
 @endsection
