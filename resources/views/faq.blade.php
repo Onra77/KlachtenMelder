@@ -39,7 +39,7 @@
         @slot('title')
             Waarom?
         @endslot 
-        Het is het eindproject van een bootkamp gegeven door CodeGorila waarin we zelf een onderwerp mochten kiezen. We kozen ervoor om in kaart te brengen wat voor klachten er worden gemeld en of het kenmerkend is voor bepaalde gebieden.</br>
+        Het is het eindproject van een bootkamp gegeven door <a href="https://www.codegorilla.nl/">CodeGorila</a> waarin we zelf een onderwerp mochten kiezen. We kozen ervoor om in kaart te brengen wat voor klachten er worden gemeld en of het kenmerkend is voor bepaalde gebieden.</br>
         We willen inzicht geven voor jou of je toekomstige buren.</br>
         Deze informatie kan gebruikt worden om actie te ondernemen om er iets aan te doen om de klacht te verhelpen. Het zou ook inzicht kunnen geven aan degene die een zelf een klacht veroorzaken maar daar niet van bewust zijn of realiseren dat dit voor andere heel irritant is.</br> De belangrijkste doel is inzicht geven en dus proberen mensen bewust te maken van hun omgeving en hun eigen rol erin.
     @endcomponent
