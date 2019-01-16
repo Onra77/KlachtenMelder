@@ -1,8 +1,14 @@
-body {
-  background-image: url("/img/05.jpg");
+html, body {
+  color: rgb(0, 0, 0);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  font-weight: 'Strong';
+  height: 100vh;
+  margin: 0;
+  background-image: url("/img/02.jpg");
   background-size: 100%;
-  opacity: 0.8;
-    }
+  opacity: 0.9;
+}
     
 .harmonica {
   background-color: #eee;
@@ -43,11 +49,53 @@ body {
   text-align: center;
 }
 
+.links > a {
+  color: rgb(0, 0, 0);
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  font-weight: 'Strong';
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .links {
   background-color: #eee;
   border: 1px;
   color: rgb(0, 0, 0);
-  padding: 1px;
   width: 100%;
   text-align: center;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
 }

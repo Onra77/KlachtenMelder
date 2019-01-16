@@ -14,61 +14,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">7
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
-        <style>
-            html, body {
-                
-                /*background-color: #fff;*/
-                color: rgb(0, 0, 0);
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                font-weight: 'Strong';
-                height: 100vh;
-                margin: 0;
-            }
-                        
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: rgb(0, 0, 0);
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                font-weight: 'Strong';
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
+        
     </head>
     <body>
         <div class="flex-center position-ref">
