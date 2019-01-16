@@ -14,6 +14,19 @@
         <!-- Styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+
+        <!-- Links -->
+        <link rel="preload" as="01.jpg" href="/img/01.jpg">
+        <link rel="preload" as="02.jpg" href="/img/02.jpg">
+        <link rel="preload" as="03.jpg" href="/img/03.jpg">
+        <link rel="preload" as="04.jpg" href="/img/04.jpg">
+        <link rel="preload" as="05.jpg" href="/img/05.jpg">
+        <link rel="preload" as="06.jpg" href="/img/06.jpg">
+        <link rel="preload" as="07.jpg" href="/img/07.jpg">
+        <link rel="preload" as="08.jpg" href="/img/08.jpg">
+        <link rel="preload" as="09.jpg" href="/img/09.jpg">
+        <link rel="preload" as="10.jpg" href="/img/10.jpg">
+
         
     </head>
     <body>
@@ -63,25 +76,24 @@
             </div>
         @endif
         </script>
-
         
         <script>
         $(document).ready(function() {
-  var urls = ['/img/02.jpg', 'img/08.jpg', 'img/03.jpg', 'img/04.jpg', 'img/05.jpg', 'img/06.jpg', 'img/07.jpg', 'img/01.jpg', 'img/09.jpg', 'img/10.jpg'];
-
-  var cout = 1;
-  $('body').css('background-image', 'url("' + urls[0] + '")');
-  setInterval(function() {
-    $('body').css('background-image', 'url("' + urls[cout] + '")');
-    cout == urls.length-1 ? cout = 0 : cout++;
-  }, 5000);
-
-});
+        var urls = ['/img/02.jpg', '/img/08.jpg', '/img/03.jpg', '/img/04.jpg', '/img/05.jpg', '/img/06.jpg', '/img/07.jpg', '/img/01.jpg', '/img/09.jpg', '/img/10.jpg'];
+            var cout = 1;
+            $('body').css('background-image', 'url("' + urls[0] + '")');
+            setInterval(function() {
+            $('body').css('background-image', 'url("' + urls[cout] + '")');
+            cout == urls.length-1 ? cout = 0 : cout++;
+        }, 5000);
+        });
         </script>
+      
 
     </body>
-
+    <div id="footer">
     <footer>
         &copy; 2018 - <script type="text/javascript">document.write(new Date().getFullYear());</script>
     </footer>
+    </div>
 </html>

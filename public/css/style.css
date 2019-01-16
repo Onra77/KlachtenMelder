@@ -9,17 +9,6 @@ html, body {
   background-size: 100%;
   opacity: 0.9;
 }
-    
-.harmonica {
-  background-color: #eee;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  padding: 5px;
-  width: 100%;
-  text-align: center;
-  border: none;
-  outline: none;
-  }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .harmonica:hover {
@@ -99,3 +88,9 @@ html, body {
 .m-b-md {
   margin-bottom: 30px;
 }
+
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;  
+ }
