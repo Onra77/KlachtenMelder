@@ -1,6 +1,12 @@
+body {
+  background-image: url("/img/05.jpg");
+  background-size: 100%;
+  opacity: 0.8;
+    }
+    
 .harmonica {
   background-color: #eee;
-  color: #444;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 5px;
   width: 100%;
@@ -17,9 +23,9 @@
 /* Style the harmonica panel. Note: hidden by default */
 .texter {
   background-color: #eee;
-  color: #444;
+  color: rgb(0, 0, 0);
   padding: 1px;
-  width: 704px;
+  width: 708px;
   text-align: center;
   border: none;
   outline: none;
@@ -30,8 +36,18 @@
 
 #grey {
   background-color: #eee;
-  color: #444;
+  border: 1px;
+  color: rgb(0, 0, 0);
   padding: 1px;
-  width: 704px;
+  width: 100%;
+  text-align: center;
+}
+
+.links {
+  background-color: #eee;
+  border: 1px;
+  color: rgb(0, 0, 0);
+  padding: 1px;
+  width: 100%;
   text-align: center;
 }

@@ -16,14 +16,16 @@
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                
+                /*background-color: #fff;*/
+                color: rgb(0, 0, 0);
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
+                font-weight: 'Strong';
                 height: 100vh;
                 margin: 0;
             }
-
+                        
             .full-height {
                 height: 100vh;
             }
@@ -53,10 +55,11 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: rgb(0, 0, 0);
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
+                font-weight: 'Strong';
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
@@ -97,16 +100,24 @@
                     <a href="contact">contact</a>
                     <a href="disclaimer">disclaimer</a>
                 </div>
-            </div>
+                </div>
         </div>
+        
         <!-- Scripts -->
         <script src="{{ asset('js/main.js') }}"></script>
+
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
     </body>
 
     <footer>
-    &copy; 2018 - <script type="text/javascript">
-  document.write(new Date().getFullYear());
-</script>
+        &copy; 2018 - <script type="text/javascript">document.write(new Date().getFullYear());</script>
     </footer>
-
 </html>

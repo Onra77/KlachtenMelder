@@ -8,16 +8,9 @@
 <div id=grey>
     <h1>Info</h1>
     <p>
-        Waarom kies je dit project?
-        Het is interessant en we willen dit graag uitwerken over hoe het technisch in elkaar zit. Het is
-        handig voor buren of toekomstige buren om te zien wat voor klachten er zijn en hoe het verholpen
-        kan worden of wat als je zelf onderdeel bent van de klacht. 
-        
-        De bedoeling is om via een simpele interface je een klacht kan melden onder een “categorie” die
-        het dichtst bij de klacht in de buurt komt. Dan kun je nog een korte omschrijving geven van de
-        klacht in een tekstvak. Deze klachten kun je terug zien in een overzicht dat per gefilterd wordt op
-        postcode, stad, provincie of landelijk. Klachten die een enkele keer voor komen worden na een
-        tijdje automatisch verwijderd om vervuiling van de database te voorkomen.
+    Op deze website kun je een overzicht zien van klachten in een bepaald wijk.</br> 
+    In de toekomst is de overzicht wellicht ook beschikbaar per stad en provincie.</br>
+    Dit wordt gekoppeld aan een landkaart voor een beter overzicht.
     </p>
 </div>    
 @endsection
