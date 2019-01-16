@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
       
         <!-- Styles -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">7
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
         
     </head>
@@ -38,7 +38,6 @@
                 </div>
                 @yield('content')
                 <div class="links">
-                    <!-- <a href="welcome">Home</a> -->
                     <a href="klacht">Klacht</a>
                     <a href="overzicht">Overzicht</a>
                     <a href="info">Info</a>
@@ -50,8 +49,10 @@
         </div>
         
         <!-- Scripts -->
-        <script src="{{ asset('js/main.js') }}"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="{{ asset('js/main.js') }}">
 
+        <script>
         @if ($errors->any())
             <div class="alert alert-danger">
                 <ul>
@@ -61,6 +62,23 @@
                 </ul>
             </div>
         @endif
+        </script>
+
+        
+        <script>
+        $(document).ready(function() {
+  var urls = ['/img/02.jpg', 'img/08.jpg', 'img/03.jpg', 'img/04.jpg', 'img/05.jpg', 'img/06.jpg', 'img/07.jpg', 'img/01.jpg', 'img/09.jpg', 'img/10.jpg'];
+
+  var cout = 1;
+  $('body').css('background-image', 'url("' + urls[0] + '")');
+  setInterval(function() {
+    $('body').css('background-image', 'url("' + urls[cout] + '")');
+    cout == urls.length-1 ? cout = 0 : cout++;
+  }, 5000);
+
+});
+        </script>
+
     </body>
 
     <footer>

@@ -5,7 +5,7 @@ html, body {
   font-weight: 'Strong';
   height: 100vh;
   margin: 0;
-  background-image: url("/img/02.jpg");
+  /* background-image: url("/img/03.jpg"); */
   background-size: 100%;
   opacity: 0.9;
 }
