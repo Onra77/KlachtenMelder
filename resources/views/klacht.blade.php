@@ -4,8 +4,10 @@
     Klacht - KM
 @endsection
 
+@extends('nav')
+
 @section('content')
-<div id=grey>
+<div id="grey">
     <h1>Klacht</h1>
 
 

@@ -6,6 +6,9 @@
 
 @endsection
 
+@extends('nav')
+
+
 @section('content')
 <div id=grey>
 

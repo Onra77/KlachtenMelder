@@ -4,8 +4,10 @@
     Info - KM
 @endsection
 
+@extends('nav')
+
 @section('content')
-<div id=grey>
+<div id="grey">
     <h1>Info</h1>
     <p>
     Op deze website kun je een overzicht zien van klachten in een bepaald wijk.</br> 

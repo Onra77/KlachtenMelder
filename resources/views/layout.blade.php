@@ -14,9 +14,10 @@
         <!-- Styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+        
 
         <!-- Links -->
-        <link rel="preload" as="01.jpg" href="/img/01.jpg">
+        <!-- <link rel="preload" as="01.jpg" href="/img/01.jpg">
         <link rel="preload" as="02.jpg" href="/img/02.jpg">
         <link rel="preload" as="03.jpg" href="/img/03.jpg">
         <link rel="preload" as="04.jpg" href="/img/04.jpg">
@@ -25,11 +26,12 @@
         <link rel="preload" as="07.jpg" href="/img/07.jpg">
         <link rel="preload" as="08.jpg" href="/img/08.jpg">
         <link rel="preload" as="09.jpg" href="/img/09.jpg">
-        <link rel="preload" as="10.jpg" href="/img/10.jpg">
+        <link rel="preload" as="10.jpg" href="/img/10.jpg"> -->
 
         
     </head>
     <body>
+   
         <div class="flex-center position-ref">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -44,22 +46,15 @@
                     @endauth
                 </div>
             @endif
+      
+            <div class="title m-b-md">
+                KlachtenMelder
+            </div>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    KlachtenMelder
-                </div>
-                @yield('content')
-                <div class="links">
-                    <a href="klacht">Klacht</a>
-                    <a href="overzicht">Overzicht</a>
-                    <a href="info">Info</a>
-                    <a href="faq">faq</a>
-                    <a href="contact">contact</a>
-                    <a href="disclaimer">disclaimer</a>
-                </div>
-                </div>
-        </div>
+             
+         </div>     
+       
+         @yield('content')  
         
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -85,7 +80,7 @@
             setInterval(function() {
             $('body').css('background-image', 'url("' + urls[cout] + '")');
             cout == urls.length-1 ? cout = 0 : cout++;
-        }, 5000);
+        }, 50000);
         });
         </script>
       

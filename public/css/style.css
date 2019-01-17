@@ -5,38 +5,54 @@ html, body {
   font-weight: 'Strong';
   height: 100vh;
   margin: 0;
-  /* background-image: url("/img/03.jpg"); */
   background-size: 100%;
   opacity: 0.9;
 }
 
+.harmonica {
+  background-color: antiquewhite;
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  border: none;
+  outline: none;
+  transition: 1s;
+  width: 100%;
+ }
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .harmonica:hover {
-  background-color: #ccc;
+  background-color: antiquewhite;
 }
 
 /* Style the harmonica panel. Note: hidden by default */
 .texter {
-  background-color: #eee;
-  color: rgb(0, 0, 0);
-  padding: 1px;
-  width: 708px;
+  width: 100%;
+  align-content: center;
   text-align: center;
-  border: none;
-  outline: none;
-  transition: 1s;
+  background-color: antiquewhite;
   display: none;
   overflow: hidden;
+  padding: 0 10px;
 }
 
 #grey {
-  background-color: #eee;
+  background-color: antiquewhite;
   border: 1px;
   color: rgb(0, 0, 0);
   padding: 1px;
-  width: 100%;
+  width: 80%;
   text-align: center;
+  justify-content: center;
+  margin-left:100px;
+ }
+
+#nav {
+  align-content: center;
+  text-align: center;
+  width: 80%;
+
 }
+
 
 .links > a {
   color: rgb(0, 0, 0);
@@ -50,11 +66,17 @@ html, body {
 }
 
 .links {
+  align-content: center;
   background-color: #eee;
   border: 1px;
   color: rgb(0, 0, 0);
   width: 100%;
   text-align: center;
+  position: relative;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
 }
 
 .full-height {
@@ -63,6 +85,7 @@ html, body {
 
 .flex-center {
   align-items: center;
+  text-align: center;
   display: flex;
   justify-content: center;
 }
@@ -72,21 +95,13 @@ html, body {
 }
 
 .top-right {
-  position: absolute;
+  position: relative;
   right: 10px;
   top: 18px;
 }
 
-.content {
-  text-align: center;
-}
-
 .title {
   font-size: 84px;
-}
-
-.m-b-md {
-  margin-bottom: 30px;
 }
 
 #footer {
