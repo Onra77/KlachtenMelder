@@ -1,21 +1,3 @@
-// var harmonicas = document.getElementsByClassName('harmonica');
-// for(i = 0; i < harmonicas.length; i++) {
-//     harmonicas[i].onclick = function () {
-//         var textarea = this.getElementsByClassName('texter')[0];
-        
-//         if (textarea.classList.contains('show')) {
-//             console.log('hier');
-//             textarea.classList.remove('show');
-//         }
-//         else {
-//             textarea.classList.add('show');
-//         }
-
-//         console.log(textarea.classList);
-//     };
-// }
-
-
 var acc = document.getElementsByClassName("harmonica");
 var i;
 
