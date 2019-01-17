@@ -1,4 +1,4 @@
-<div id+"nav" class="content">          
+<div id+"nav">          
             <div class="links">
                 <a href="klacht">Klacht</a>
                 <a href="overzicht">Overzicht</a>
