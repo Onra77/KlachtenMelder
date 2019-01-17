@@ -5,7 +5,7 @@
     </div>
 </div> -->
 
-<button class="harmonica"><b>{{ $title }}</b></button>
+<a href class="harmonica"><b>{{ $title }}</b></a>
 <div class="texter">
     <p>{{ $slot }}</p>
 </div>
