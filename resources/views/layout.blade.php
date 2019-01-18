@@ -78,7 +78,7 @@
             setInterval(function() {
             $('body').css('background-image', 'url("' + urls[cout] + '")');
             cout == urls.length-1 ? cout = 0 : cout++;
-        }, 2000);
+        }, 10000);
         });
         </script>
               
