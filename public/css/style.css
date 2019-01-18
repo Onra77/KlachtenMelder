@@ -67,8 +67,14 @@ html, body {
   margin-left:5%;
   margin-bottom: 5%;
   transition: 1s;
-  border: 1px solid black;
+}
+
+table {
   border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
 
 .links > a {
