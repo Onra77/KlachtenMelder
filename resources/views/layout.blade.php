@@ -17,7 +17,7 @@
         
 
         <!-- Links -->
-        <link rel="preload" as="01.jpg" href="/img/01.jpg">
+        <!-- <link rel="preload" as="01.jpg" href="/img/01.jpg">
         <link rel="preload" as="02.jpg" href="/img/02.jpg">
         <link rel="preload" as="03.jpg" href="/img/03.jpg">
         <link rel="preload" as="04.jpg" href="/img/04.jpg">
@@ -27,7 +27,7 @@
         <link rel="preload" as="08.jpg" href="/img/08.jpg">
         <link rel="preload" as="09.jpg" href="/img/09.jpg">
         <link rel="preload" as="10.jpg" href="/img/10.jpg">
-       
+        -->
     </head>
     <body>
    
