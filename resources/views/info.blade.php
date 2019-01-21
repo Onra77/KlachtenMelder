@@ -4,8 +4,6 @@
     Info - KM
 @endsection
 
-@extends('nav')
-
 @section('content')
 <div id="grey">
     <h1>Info</h1>

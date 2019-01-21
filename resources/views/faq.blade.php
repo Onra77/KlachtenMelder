@@ -4,9 +4,6 @@
     FAQ - KM
 @endsection
 
-@extends('nav')
-
-
 @section('content')
     <div class="grey">
         @component('components.harmonica')

@@ -6,11 +6,10 @@
 
 @endsection
 
-@extends('nav')
 
 
 @section('content')
-<div id=grey>
+<div id=klacht>
 
     <h1>Contact?</h1>
 

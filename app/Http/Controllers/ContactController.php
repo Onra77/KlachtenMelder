@@ -11,17 +11,21 @@ class ContactController extends Controller
         return view('contact.create');
     }
 
-    public function store()
+    public function store(Request $request)
     {
+      $rules = $this->rules();
+      $validatedData = $request->validate($rules);
+
+      // The blog post is valid...
       echo"Bericht verzonden.</br> Indien nodig nemen we z.s.m. contact met u op.</br> Bedankt voor uw bericht.";
     }
 
     public function rules()
-{
-  return [
-    'name'    => 'required',
-    'email'   => 'required|email',
-    'msg'     => 'required'
-  ];
-}
+    {
+      return [
+        'name'    => 'required',
+        'email'   => 'required|email',
+        'msg'     => 'required'
+      ];
+    }
 }

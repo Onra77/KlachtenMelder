@@ -6,7 +6,7 @@ html, body {
   height: 100vh;
   margin: 0;
   background-size: 100%;
-  opacity: 0.99;  
+  opacity: 0.95;
 }
 /* harmonica aka accordion */
 .harmonica {
@@ -77,6 +77,18 @@ table, th, td {
   border: 1px solid black;
 }
 
+.links {
+  align-content: center;
+  background-color: #eee;
+  border: 1px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+
 .links > a {
   color: rgb(0, 0, 0);
   padding: 0 25px;
@@ -88,16 +100,7 @@ table, th, td {
   text-transform: uppercase;
 }
 
-.links {
-  align-content: center;
-  background-color: #eee;
-  border: 1px;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  text-align: center;
-  position: fixed;
-  z-index: 2;
-}
+
 
 .m-b-md {
   margin-bottom: 0px;

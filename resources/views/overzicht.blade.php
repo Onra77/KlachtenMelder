@@ -4,9 +4,6 @@
     Overzicht - KM
 @endsection
 
-@extends('nav')
-
-
 @section('content')
     <form id="klacht">
                        
