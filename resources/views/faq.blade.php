@@ -8,7 +8,7 @@
 
 
 @section('content')
-    <div class="grey">
+    <div id="grey">
         @component('components.harmonica')
             @slot('title')
                 Wie?

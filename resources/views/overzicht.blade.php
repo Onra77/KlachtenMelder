@@ -7,7 +7,7 @@
 
 
 @section('content')
-    <form id="klacht">
+    <form id="grey">
                        
             <h1 id="h">Overzicht klachten</h1>
             <!-- <label  for="exampleFormControlInput1"> Postcode</label> -->
@@ -22,6 +22,7 @@
         </div>
         <button type="button" class="btn btn-primary my-1" onclick="lonlat()">Zoek op Postcode</button> -->
 
+        
         <table id="dummy">
         <tr>
         <th>Postcode</th>

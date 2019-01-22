@@ -9,7 +9,7 @@
 
 
 @section('content')
-<div id=klacht>
+<div id="grey">
 
     <h1>Contact?</h1>
 

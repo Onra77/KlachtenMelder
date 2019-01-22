@@ -14,10 +14,8 @@ html, body {
   cursor: pointer;
   border: 1px;
   color: rgb(92, 68, 68);
-  padding: 1px;
-  width: 80%;
+  width: 60%;
   text-align: center;
-  margin-left:10%;
   transition: 1s;
  }
 
@@ -28,14 +26,13 @@ html, body {
 
 /* Style the harmonica panel. Note: hidden by default */
 .texter {
-  width: 80%;
+  width: 100%;
   align-content: center;
   text-align: center;
   background-color: antiquewhite;
   display: none;
   overflow: hidden;
   padding: 0 10px;
-  margin-left: 10%;
 }
 
 #grey {
@@ -43,9 +40,9 @@ html, body {
   border: 1px;
   color: rgb(92, 68, 68);
   padding: 1px;
-  width: 80%;
+  width: 60%;
   text-align: center;
-  margin-left:10%;
+  margin-left:20%;
   margin-bottom: 5%;
   transition: 1s;
  }
@@ -63,8 +60,10 @@ html, body {
 
 #dummy {
   color: rgb(92, 68, 68);
+  width: 90%;
   padding: 5px;
-  text-align: left;
+  align-content: center;
+  text-align: center;
   margin-left:5%;
   margin-bottom: 5%;
   transition: 1s;

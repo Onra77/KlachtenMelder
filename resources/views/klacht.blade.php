@@ -7,7 +7,7 @@
 
 
 @section('content')
-    <form id="klacht">
+    <form id="grey">
             <i id="pic1"></i>
             <div class="form-group">
                 <h1 id="h">MELD KLACHT</h1>
