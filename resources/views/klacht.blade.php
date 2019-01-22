@@ -5,7 +5,7 @@
 @endsection
 
 
-
+<div id="wrapper">
 @section('content')
     <form id="grey">
             <i id="pic1"></i>
@@ -38,3 +38,4 @@
 
 </div>
 @endsection
+</div>

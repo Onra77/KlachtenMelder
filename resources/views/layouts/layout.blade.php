@@ -61,15 +61,26 @@
                 </ul>
             </div>
         @endif
+        <div id="wrapper">
+        
         
         <div id="content">
+        
             @yield('content')
+
         </div>
+        </div>  
         
         <!-- Scripts -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="{{ asset('js/main.js') }}"></script>
-     
+        
+        <!-- <script>
+            document.getElementById("wrapper").style.height = //content height +"px";
+        </script> -->
+
+
         <script>
         $(document).ready(function() {
         var urls = ['/img/03.jpg', '/img/08.jpg', '/img/06.jpg', '/img/04.jpg', '/img/05.jpg', '/img/02.jpg', '/img/07.jpg', '/img/01.jpg', '/img/09.jpg', '/img/10.jpg'];
@@ -78,10 +89,10 @@
             setInterval(function() {
             $('body').css('background-image', 'url("' + urls[cout] + '")');
             cout == urls.length-1 ? cout = 0 : cout++;
-        }, 10000);
+        }, 3000);
         });
         </script>
-              
+             
     </body>
     <div id="footer">
     <footer>

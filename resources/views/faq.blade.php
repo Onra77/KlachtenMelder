@@ -6,7 +6,7 @@
 
 
 
-
+<div id="wrapper">
 @section('content')
     <div id="grey">
         @component('components.harmonica')
@@ -69,3 +69,4 @@
         @endcomponent
         </div>
   @endsection
+  </div>

@@ -5,7 +5,7 @@
 @endsection
 
 
-
+<div id="wrapper">
 @section('content')
 <div id=grey>
 <h1>Disclaimer</h1>
@@ -20,3 +20,4 @@ Wij kunnen geen garantie bieden betreffende de veiligheid van de website,</br> n
 </p>
 </div>
 @endsection
+</div>

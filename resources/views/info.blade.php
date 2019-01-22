@@ -5,7 +5,7 @@
 @endsection
 
 
-
+<div id="wrapper">
 @section('content')
 <div id="grey">
     <h1>Info</h1>
@@ -17,3 +17,4 @@
     </p>
 </div>    
 @endsection
+</div>
