@@ -1,7 +1,7 @@
 @extends('layouts/layout')
 
 @section('title')
-    Klacht - KM
+    Klacht melden - KM
 @endsection
 
 
@@ -10,7 +10,7 @@
     <form id="grey">
             <i id="pic1"></i>
             <div class="form-group">
-                <h1 id="h">MELD KLACHT</h1>
+                <h1 id="h">Meld klacht</h1>
                 <label for="exampleFormControlInput1"><i class="far fa-edit"></i> Postcode</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234 AB">
             </div>

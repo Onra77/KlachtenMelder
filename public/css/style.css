@@ -1,7 +1,6 @@
 html, body {
-  color: rgb(92, 68, 68);
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-weight: 'Strong';
   height: 100vh;
   margin: 0;
@@ -88,7 +87,6 @@ table, th, td {
   z-index: 2;
 }
 
-
 .links > a {
   color: rgb(0, 0, 0);
   padding: 0 25px;
@@ -100,9 +98,9 @@ table, th, td {
   text-transform: uppercase;
 }
 
-
-
 .m-b-md {
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px #888888;
   margin-bottom: 0px;
 }
 

@@ -8,6 +8,7 @@
 
 @section('content')
 <div id=grey>
+<h1>Disclaimer</h1>
 <p>
 Wij zijn niet verantwoordelijk voor pagina’s van externe organisaties waarnaar verwezen wordt.
 </p>
