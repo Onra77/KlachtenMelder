@@ -1,8 +1,10 @@
-@extends('layout')
+@extends('layouts/layout')
 
 @section('title')
     Overzicht - KM
 @endsection
+
+
 
 @section('content')
     <form id="klacht">

@@ -1,8 +1,11 @@
-@extends('layout')
+@extends('layouts/layout')
 
 @section('title')
     FAQ - KM
 @endsection
+
+
+
 
 @section('content')
     <div class="grey">

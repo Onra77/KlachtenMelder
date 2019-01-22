@@ -1,8 +1,10 @@
-@extends('layout')
+@extends('layouts/layout')
 
 @section('title')
     Info - KM
 @endsection
+
+
 
 @section('content')
 <div id="grey">

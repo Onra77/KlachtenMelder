@@ -1,8 +1,10 @@
-@extends('layout')
+@extends('layouts/layout')
 
 @section('title')
     Klacht - KM
 @endsection
+
+
 
 @section('content')
     <form id="klacht">
@@ -10,11 +12,11 @@
             <div class="form-group">
                 <h1 id="h">MELD KLACHT</h1>
                 <label for="exampleFormControlInput1"><i class="far fa-edit"></i> Postcode</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="1234 AB">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234 AB">
             </div>
         <div class="form-group">
             <label for="exampleFormControlSelect1"><i class="far fa-hand-pointer"></i> Selecteer een catogorie</label>
-            <select class="form-control" id="exampleFormControlSelect1">   
+            <select class="form-control" id="exampleFormControlSelect1">
                 <option>Criminaliteit</option>
                 <option>Lawaaioverlast</option>
                 <option>Parkeeroverlast</option>
