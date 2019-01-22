@@ -5,7 +5,6 @@
 @endsection
 
 
-
 <div id="wrapper">
 @section('content')
     <div id="grey">

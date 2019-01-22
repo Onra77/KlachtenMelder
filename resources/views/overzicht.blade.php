@@ -21,7 +21,6 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
         </div>
         <button type="button" class="btn btn-primary my-1" onclick="lonlat()">Zoek op Postcode</button> -->
-
         
         <table id="dummy">
         <tr>
@@ -59,19 +58,7 @@
         <td>Buren</td>
         <td>Houtrook</td>
         </tr>
-
         </table>
-
-
-
-
-
-        <tr></tr>
-        </table>
-
-
     </form>
-
-</div>    
 @endsection
 </div>

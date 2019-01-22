@@ -13,7 +13,7 @@
       background-image:  url('/nederland.jpg');
   
 
-    background-color:gray;
+    /* background-color:gray; */
     border-width:8px;
     border-style: solid;
     border-color: maroon;

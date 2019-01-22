@@ -89,7 +89,7 @@
             setInterval(function() {
             $('body').css('background-image', 'url("' + urls[cout] + '")');
             cout == urls.length-1 ? cout = 0 : cout++;
-        }, 3000);
+        }, 20000);
         });
         </script>
              

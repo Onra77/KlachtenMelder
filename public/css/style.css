@@ -9,17 +9,16 @@ html, body {
 }
 /* harmonica aka accordion */
 .harmonica {
-  background-color: antiquewhite;
   cursor: pointer;
   border: 1px;
-  color: rgb(92, 68, 68);
-  width: 60%;
+  width: 100%;
   text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .harmonica:hover {
-  background-color: antiquewhite;
+  
 }
 
 /* Style the harmonica panel. Note: hidden by default */
@@ -27,44 +26,40 @@ html, body {
   width: 100%;
   align-content: center;
   text-align: center;
-  background-color: antiquewhite;
   display: none;
-  overflow: hidden;
-  padding: 0 10px;
-  transition-duration: 4s;
 }
 
 /* Content */
 #grey {
-  background-color: antiquewhite;
+  /* background-color: #eee; */
   border: 1px;
-  color: rgb(92, 68, 68);
+  color: rgb(0, 0, 0);
   padding: 1px;
   width: 60%;
   text-align: center;
   margin-left:20%;
-  margin-bottom: 5%;
-  transition: 1s;
+  margin-bottom: 1%;
+  transition-duration: 4s;
  }
 /* Smaller content */
  #grey2 {
-  background-color: antiquewhite;
+  /* background-color: #eee; */
   border: 10px;
   color: rgb(92, 68, 68);
   width: 40%;
   text-align: center;
   margin-left:30%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   transition: 1s;
  }
 
 #dummy {
-  color: rgb(92, 68, 68);
+  color: rgb(0, 0, 0);
   width: 90%;
   padding: 5px;
   text-align: left;
   margin-left:5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   transition: 1s;
 }
 
@@ -83,7 +78,7 @@ table, th, td {
   color: rgb(0, 0, 0);
   width: 100%;
   text-align: center;
-  position: relative;
+  position: fixed;
   z-index: 2;
 }
 
