@@ -4,8 +4,8 @@
     Klacht melden - KM
 @endsection
 
-
-<div id="wrapper">
+<div class="container">
+<div class="wrapper">
 @section('content')
     <form id="grey">
             <i id="pic1"></i>
@@ -38,4 +38,5 @@
 
 </div>
 @endsection
+</div>
 </div>

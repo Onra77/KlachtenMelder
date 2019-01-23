@@ -5,7 +5,7 @@
 @endsection
 
 
-<div id="wrapper">
+<div class="wrapper">
 @section('content')
     <div id="grey">
         @component('components.harmonica')

@@ -5,7 +5,7 @@
 @endsection
 
 
-<div id="wrapper">
+<div class="wrapper">
 @section('content')
     <form id="grey">
                        

@@ -41,7 +41,13 @@ color: rgba (0,0,0,0);
   margin-left:20%;
   margin-bottom: 1%;
   transition-duration: 2s;
- }
+}
+
+ .wrapper {
+  transition:height 1s ease-out;
+  height:0;
+}
+
 /* Smaller content */
  #grey2 {
   /* background-color: #eee; */
@@ -55,12 +61,12 @@ color: rgba (0,0,0,0);
  }
 
 #dummy {
-  color: rgb(0, 0, 0);
+  color: rgb(92, 68, 68);
   width: 90%;
   padding: 5px;
   text-align: left;
   margin-left:5%;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
   transition: 1s;
 }
 
@@ -84,7 +90,7 @@ table, th, td {
 }
 
 .links > a {
-  color: rgb(0, 0, 0);
+  color: rgb(92, 68, 68);
   padding: 0 25px;
   font-size: 13px;
   font-weight: 600;
@@ -130,10 +136,4 @@ table, th, td {
   position:fixed;
   bottom:0;
   width:100%;  
-}
-
-.wrapper {
-  transition:height 1s ease-out;
-  height:0;
-  overflow:hidden;
 }
