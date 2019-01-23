@@ -10,15 +10,16 @@ html, body {
 /* harmonica aka accordion */
 .harmonica {
   cursor: pointer;
+  background-color: rgba(0,0,0,0);
   border: 1px;
   width: 100%;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(92, 68, 68);
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .harmonica:hover {
-  
+color: rgba (0,0,0,0);
 }
 
 /* Style the harmonica panel. Note: hidden by default */
@@ -31,21 +32,21 @@ html, body {
 
 /* Content */
 #grey {
-  /* background-color: #eee; */
+  background-color: #eee;
   border: 1px;
-  color: rgb(0, 0, 0);
+  color: rgb(92, 68, 68);
   padding: 1px;
   width: 60%;
   text-align: center;
   margin-left:20%;
   margin-bottom: 1%;
-  transition-duration: 4s;
+  transition-duration: 2s;
  }
 /* Smaller content */
  #grey2 {
   /* background-color: #eee; */
   border: 10px;
-  color: rgb(92, 68, 68);
+  /* color: rgb(92, 68, 68); */
   width: 40%;
   text-align: center;
   margin-left:30%;
