@@ -33,6 +33,8 @@
     <body>
             @include('nav') 
 
+            <!-- <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12"> -->
+            
         <div class="flex-center position-ref">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -70,6 +72,7 @@
             @yield('content')
 
         </div>
+        </div>  
         </div>  
         
         <!-- Scripts -->

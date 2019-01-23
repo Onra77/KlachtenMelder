@@ -3,7 +3,7 @@ html, body {
   font-weight: 400;
   font-weight: 'Strong';
   height: 100vh;
-  margin: 0;
+  margin: 0px;
   background-size: 100%;
   opacity: 0.95;
   width: 100%;
@@ -15,7 +15,7 @@ html, body {
   border: 1px;
   width: 100%;
   text-align: center;
-  color: rgb(92, 68, 68);
+  color: rgb(68, 68, 68);
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -35,7 +35,7 @@ color: rgba (0,0,0,0);
 #grey {
   background-color: #eee;
   border: 1px;
-  color: rgb(92, 68, 68);
+  color: rgb(68, 68, 68);
   padding: 1px;
   width: 60%;
   text-align: center;
@@ -45,24 +45,21 @@ color: rgba (0,0,0,0);
   margin-left: 20%;
   transition-duration: 2s;
 }
-
+  /* Bedoelt om de content te laten sliden maar heeft blijkbaar geen enkele invloed. */
  .wrapper {
   transition:height 1s ease-out;
   height:0;
 }
 
 #dummy {
-  color: rgb(92, 68, 68);
-  width: 90%;
+  color: rgb(68, 68, 68);
+  width: 100%;
   transition: 2s;
 }
 
 table {
   border-collapse: collapse;
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  margin-left: auto;
+ 
 }
 
 table, th, td {
@@ -81,7 +78,7 @@ table, th, td {
 }
 
 .links > a {
-  color: rgb(92, 68, 68);
+  color: rgb(68, 68, 68);
   padding: 0 25px;
   font-size: 13px;
   font-weight: 600;
