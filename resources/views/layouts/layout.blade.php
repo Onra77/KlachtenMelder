@@ -31,7 +31,7 @@
        
     </head>
     <body>
-        @include('nav') 
+            @include('nav') 
 
         <div class="flex-center position-ref">
             @if (Route::has('login'))
@@ -100,4 +100,5 @@
         &copy; 2018 - <script type="text/javascript">document.write(new Date().getFullYear());</script>
     </footer>
     </div>
+   
 </html>
