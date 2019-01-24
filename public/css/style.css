@@ -5,9 +5,14 @@ html, body {
   height: 100vh;
   margin: 0px;
   background-size: 100%;
-  opacity: 0.95;
+  opacity: 0.85;
   width: 100%;
 }
+
+ul {
+    list-style-type: none;
+  }
+
 /* harmonica aka accordion */
 .harmonica {
   cursor: pointer;
@@ -59,14 +64,13 @@ color: rgba (0,0,0,0);
 
 table {
   border-collapse: collapse;
- 
 }
 
 table, th, td {
   border: 1px solid black;
 }
 
-.links {
+.navbar {
   align-content: center;
   background-color: #eee;
   border: 1px;

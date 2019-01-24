@@ -1,8 +1,12 @@
-<div class="links">
-    <a href="klacht">Klacht</a>
-    <a href="overzicht">Overzicht</a>
-    <a href="info">Info</a>
-    <a href="faq">faq</a>
-    <a href="contact">contact</a>
-    <a href="disclaimer">disclaimer</a>
+<ul class="navbar">
+    <!-- <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a> -->
+   <li><a href="klacht">Klacht</a></li>
+   <li><a href="overzicht">Overzicht</a></li>
+   <li><a href="info">Info</a></li>
+   <li><a href="faq">FAQ</a></li>
+   <li><a href="contact">Contact</a></li>
+   <li><a href="disclaimer">Disclaimer</a></li>
+   <!-- <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a> -->
+</ul>
 </div>
+</nav>

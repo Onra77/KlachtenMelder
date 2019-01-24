@@ -33,8 +33,8 @@
     <body>
             @include('nav') 
 
-            <!-- <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12"> -->
-            
+   
+
         <div class="flex-center position-ref">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -50,9 +50,7 @@
                 </div>
             @endif
                 
-            <div class="title m-b-md">
-                KlachtenMelder
-            </div>
+            @include('title') 
           
          </div>     
          @if ($errors->any())
@@ -65,8 +63,7 @@
             </div>
         @endif
         <div id="wrapper">
-        
-        
+                
         <div id="content">
         
             @yield('content')
