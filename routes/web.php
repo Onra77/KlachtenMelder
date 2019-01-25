@@ -11,33 +11,32 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@welkom');
+Route::get('/complain', 'ComplainController@index');
+Route::get('/disclaimer', 'DisclaimerController@index');
+Route::get('/faq', 'FAQController@index');
+Route::get('/info', 'InfoController@index');
 
-Route::get('/klacht', function () {
-    return view('klacht');
-});
 
-Route::get('/overzicht', function () {
-    return view('overzicht');
-});
+// Route::get('/info', function () {
+//     return view('info');
+// });
 
-Route::get('/info', function () {
-    return view('info');
-});
+// Route::get('/overzicht', function () {
+//     return view('overzicht');
+// });
 
-Route::get('/faq', function () {
-    return view('faq');
-});
+// Route::get('/faq', function () {
+//     return view('faq');
+// });
 
-/*Route::get('/contact', function () {
-    return view('contact');
-});*/
+// *Route::get('/contact', function () {
+//     return view('contact');
+// });*
 
-Route::get('/disclaimer', function () {
-    return view('disclaimer');
-});
+// Route::get('/disclaimer', function () {
+//     return view('disclaimer');
+// });
 
 Route::get('contact', 'ContactController@create')->name('contact.create');
 Route::post('contact', 'ContactController@store')->name('contact.store');

@@ -1,6 +1,6 @@
 <ul class="navbar">
     <!-- <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a> -->
-   <li><a href="klacht">Klacht</a></li>
+   <li><a href="complain">Klacht</a></li>
    <li><a href="overzicht">Overzicht</a></li>
    <li><a href="info">Info</a></li>
    <li><a href="faq">FAQ</a></li>
