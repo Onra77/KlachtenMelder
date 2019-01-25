@@ -7,7 +7,7 @@
 @endsection
 
 
-<div class="wrapper">
+<div>
 @section('content')
 <div id="grey">
 
