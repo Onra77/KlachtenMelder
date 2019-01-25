@@ -19,6 +19,7 @@ Route::get('/disclaimer', 'DisclaimerController@disclaimer');
 Route::get('/faq', 'FAQController@faq');
 Route::get('/info', 'InfoController@info');
 Route::get('/overview', 'OverviewController@overview');
+Route::post('contact/save', 'ContactController@save');
 
 
 // Route::post('contact', 'ContactController@showForm')name('contact.show');

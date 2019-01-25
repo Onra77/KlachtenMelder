@@ -3,12 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\ContactForm;
 
-class ContactController extends Controller
+class ContactController extends Controller 
 {
     public function create()
     {
         return view('contact.create');
+    }
+
+    public function save(Request $request)
+    {
+      $contactform = new ContactForm;
+      $contactform->name= $request->input('naam');
+      $contactform->email= $request->input('email');
+      $contactform->content= $request->input('content');
+      $contactform->save();
+
+      return redirect('/overview');
     }
 
     public function store(Request $request)

@@ -11,27 +11,16 @@
 @section('content')
 <div id="grey">
 
-    <h1>Contact?</h1>
+<form action="contact/save" method="POST">
+    @csrf
+    <input type="text" name="naam" id="naam" placeholder="naam">
+    <input type="email" name="email" id="email">
+    <input type="text" name="content" id="content">
+    <input type="submit" value="verstuur">
+    
+</form>
 
-    {!! Form::open(['route' => 'contact.store']) !!}
 
-<div class="form-group">
-    {!! Form::label('name', 'Naam') !!}
-    {!! Form::text('name', null, ['class' => 'form-control']) !!}
-</div>
-
-<div class="form-group">
-    {!! Form::label('email', 'E-mail Adres') !!}
-    {!! Form::text('email', null, ['class' => 'form-control']) !!}
-</div>
-
-<div class="form-group">
-    {!! Form::textarea('msg', null, ['class' => 'form-control']) !!}
-</div>
-
-{!! Form::submit('Verzend', ['class' => 'btn btn-info']) !!}
-
-{!! Form::close() !!}
 
 </div>
 

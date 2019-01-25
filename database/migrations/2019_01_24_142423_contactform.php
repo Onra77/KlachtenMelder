@@ -16,7 +16,8 @@ class Contactform extends Migration
         Schema::create('contactform', function (blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->text('Content');
+            $table->string('email');
+            $table->text('content');
             $table->timestamps ();
          });
         }
@@ -28,6 +29,6 @@ class Contactform extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('contactform');
     }
 }
