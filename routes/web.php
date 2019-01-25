@@ -12,34 +12,14 @@
 */
 
 Route::get('/', 'HomeController@welkom');
-Route::get('/complain', 'ComplainController@index');
-Route::get('/disclaimer', 'DisclaimerController@index');
-Route::get('/faq', 'FAQController@index');
-Route::get('/info', 'InfoController@index');
-
-
-// Route::get('/info', function () {
-//     return view('info');
-// });
-
-// Route::get('/overzicht', function () {
-//     return view('overzicht');
-// });
-
-// Route::get('/faq', function () {
-//     return view('faq');
-// });
-
-// *Route::get('/contact', function () {
-//     return view('contact');
-// });*
-
-// Route::get('/disclaimer', function () {
-//     return view('disclaimer');
-// });
-
+Route::get('/complain', 'ComplainController@complain');
 Route::get('contact', 'ContactController@create')->name('contact.create');
 Route::post('contact', 'ContactController@store')->name('contact.store');
+Route::get('/disclaimer', 'DisclaimerController@disclaimer');
+Route::get('/faq', 'FAQController@faq');
+Route::get('/info', 'InfoController@info');
+Route::get('/overview', 'OverviewController@overview');
+
 
 // Route::post('contact', 'ContactController@showForm')name('contact.show');
 
